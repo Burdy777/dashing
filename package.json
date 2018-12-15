@@ -7,11 +7,14 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "precommit": "ng lint && npm run commit-msg",
-    "commit-msg": "commitlint -e"
-
+    "e2e": "ng e2e"
   },
+    "husky": {
+      "hooks": {
+        "precommit": "ng lint && npm run commit-msg",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
+    },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.3",

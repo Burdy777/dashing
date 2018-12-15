@@ -10,7 +10,7 @@ export class AppComponent {
   constructor() {}
 
   test() {
-    const b = {};
+    let b = {};
     return;
   }
 }
