@@ -7,11 +7,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "precommit": "npm run lint"
+    "e2e": "ng e2e"
   },
   "husky": {
-      "hooks": {
+    "hooks": {
+      "precommit": "npm run lint",
         "commit-msg": "commitlint -e"
       }
     },
