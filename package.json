@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test_cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
+    "test:cover": "rm -rf ./coverage && ng test --no-watch --code-coverage",
     "cover": "cat ./coverage/Icov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "husky": {
