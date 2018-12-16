@@ -1,6 +1,6 @@
 
 # Coveralls
-
+Mardown for coveralls
 [![Coverage Status](https://coveralls.io/repos/github/Burdy777/dashing/badge.svg?branch=master)](https://coveralls.io/github/Burdy777/dashing?branch=master)
 [![Build Status](https://travis-ci.org/Burdy777/dashing.svg?branch=master)](https://travis-ci.org/Burdy777/dashing)
 
