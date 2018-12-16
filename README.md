@@ -1,7 +1,8 @@
 # Travis
 Markdown Travis for Continuous integration
 
-[https://travis-ci.org/Burdy777/dashing.svg?branch=master]
+[![Build Status](https://travis-ci.org/Burdy777/dashing.svg?branch=master)](https://travis-ci.org/Burdy777/dashing)
+
 
 # Coveralls
 Mardown for coveralls statistic integration
