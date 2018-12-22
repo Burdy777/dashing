@@ -38,5 +38,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# App demo ignore
+#App demo ignore
 /gh-pages/demo*
