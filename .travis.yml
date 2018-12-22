@@ -36,3 +36,4 @@ deploy:
     deployment-file: true
     on:
       branch: feat/gh-pages
+
