@@ -14,7 +14,7 @@ addons:
 
 cache:
   directories:
-     - ./node_modules
+    - ./node_modules
 
 install:
   - npm install
@@ -25,4 +25,13 @@ script:
   - npm run e2e -- --protractor-config=./e2e/protractor-ci.conf.js
 
 after_success:
-  - npm run coveralls
+  - npm run build:gh-pages:demo1
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local-dir: gh-pages
+  on:
+    branch: feature/gh-pages
