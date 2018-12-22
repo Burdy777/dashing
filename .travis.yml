@@ -35,5 +35,5 @@ deploy:
     local-dir: gh-pages
     deployment-file: true
     on:
-      branch: develop
+      branch: feat/gh-pages
 
