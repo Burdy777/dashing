@@ -38,5 +38,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Envir prod ignore
+# Envirprod ignore
 /gh-pages/demo*
